@@ -7,3 +7,7 @@ $ npm run install
 $ npm run dev
 ```
 Please open with click the address at console
+
+## Demo
+
+please read demo in `demo.pdf`
