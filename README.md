@@ -3,7 +3,7 @@ This is Embreo technical assessment.
 
 ## Run
 ```
-$ npm run install
+$ npm install
 $ npm run dev
 ```
 Please open with click the address at console
