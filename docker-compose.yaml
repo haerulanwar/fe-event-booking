@@ -1,0 +1,12 @@
+version: "3.9"  # Specify Docker Compose version
+
+services:
+  fe-event-booking:
+    build:
+      context: .  # Use the current directory as the build context
+      dockerfile: dockerfile # or Dockerfile if that's the file name
+    ports:
+      - "3000:3000"  # Map port 3000 on the host to port 3000 in the container
+    volumes: 
+      - .:/app # Mount local directory to container for live code updates (optional, for development)
+      - /app/node_modules
