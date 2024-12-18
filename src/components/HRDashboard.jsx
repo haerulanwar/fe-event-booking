@@ -47,7 +47,7 @@ function HRDashboard() {
                 <td className="p-3">{event.ConfirmedDate || event.ProposedDates}</td>
                 <td className="p-3">{event.Status}</td>
                 <td className="p-3">
-                  {new Date(event.CreatedAt).toLocaleDateString()}
+                  {new Date(event.CreatedAt).toISOString().split('T')[0]}
                 </td>
                 <td className="p-3">
                   <button

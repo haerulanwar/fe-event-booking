@@ -66,7 +66,7 @@ function VendorDashboard() {
                     {event.Status}
                   </span>
                 <td className="p-3">
-                  {new Date(event.CreatedAt).toLocaleDateString()}
+                  {new Date(event.CreatedAt).toISOString().split('T')[0]}
                 </td>
                 <td className="p-3">
                   <button
